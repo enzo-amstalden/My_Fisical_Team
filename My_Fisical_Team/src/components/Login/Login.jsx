@@ -9,6 +9,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Envio");
+    alert("Dados preenchidos:\n E-mail: " + email + " senha: " + password);
   };
 
   return (
