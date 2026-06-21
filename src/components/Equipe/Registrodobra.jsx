@@ -6,7 +6,7 @@ import '../styles/Form.css';
 const RegistroDobra = () => {
   const navigate = useNavigate();
   const { nomeEquipe } = useParams();
-  const { state: dadosGerais } = useLocation();
+  const { state: dadosGerais } = useLocation(); // Recebe os dados gerais do atleta
 
   const [dcTriceps, setDcTriceps] = useState('');
   const [dcCoxa, setDcCoxa] = useState('');
