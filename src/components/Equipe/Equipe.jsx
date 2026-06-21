@@ -7,7 +7,7 @@ const colunas = ["Nome", "Altura", "Peso", "Gordura C.", "DC Abdom.", "DC Coxa",
 const Equipe = () => {
   const navigate = useNavigate();
   const { nomeEquipe } = useParams();
-  const nome = decodeURIComponent(nomeEquipe).replace("-", "/");
+  const nome = decodeURIComponent(nomeEquipe).replace("-", "/"); // Transforma a URL no nome da EQUIPE
   const linhasVazias = Array(7).fill(null);
 
   const irParaNovoAtleta = () => {
