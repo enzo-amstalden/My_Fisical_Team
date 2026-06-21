@@ -14,7 +14,7 @@ const Registros = () => {
   const navigate = useNavigate();
 
   const irParaEquipe = (nome) => {
-    const slug = encodeURIComponent(nome.replace("/", "-"));
+    const slug = encodeURIComponent(nome.replace("/", "-"));   // Transforma o nome da equipe em URL
     navigate(`/equipe/${slug}`);
   };
 
