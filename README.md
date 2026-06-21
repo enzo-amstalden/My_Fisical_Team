@@ -1,3 +1,3 @@
-Execute : \n
-npm install react-icons \n
+Execute :  
+npm install react-icons  
 npm install react-router-dom
