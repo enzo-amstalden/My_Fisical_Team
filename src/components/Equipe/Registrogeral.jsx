@@ -16,7 +16,7 @@ const RegistroGeral = () => {
     navigate(`/equipe/${nomeEquipe}/novo-atleta/dobra-cutanea`, {
       state: { nome, peso, altura, idade },
     });
-  };
+  }; // Os dados são enviados para a próxima tela
 
   return (
     <div className="form-container">
